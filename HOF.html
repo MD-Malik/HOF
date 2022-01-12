@@ -1,0 +1,19 @@
+<script>
+    // array string length (HOF) 
+    var arr=["one","two","three","four","five","six"]
+    var arr2=arr.map((x)=>x.length)
+    console.log(arr2)
+
+    // array product (HOF)
+    var arr3=[3,4,5,30,12,15,4]
+    var arr4=arr3.reduce((prev,curr)=>prev*curr)
+    console.log(arr4)
+
+    // array divisible by 3 (HOF)
+    var arr5=arr3.filter((x)=>x%3==0)
+    console.log(arr5)
+
+    // array cubed (HOF)
+    var arr6=arr3.map((x)=>x**3)
+    console.log(arr6)
+</script>
